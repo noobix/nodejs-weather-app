@@ -1,0 +1,59 @@
+body {
+  margin: 0 auto;
+  padding: 0 16px;
+  overflow: hidden;
+  background-color: rgb(21, 128, 250);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  flex-grow: 1;
+  min-width: 750px;
+  background-color: rgb(128, 128, 128);
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.page {
+  padding: 0 24px 0 24px;
+}
+.top_menu {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: aqua;
+}
+footer {
+  box-sizing: border-box;
+  padding: 0 10px 10px;
+  max-height: 45px;
+  color: rgb(221, 131, 32);
+  background-color: rgb(255, 255, 255);
+  min-width: 750px;
+}
+label {
+  color: rgb(226, 22, 109);
+  font-size: 18px;
+}
+input {
+  width: 320px;
+  height: 35px;
+  color: rgb(229, 33, 45);
+  font-weight: 600;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  padding: 8px;
+}
+button {
+  background-color: rgb(22, 95, 200);
+  border: none;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
