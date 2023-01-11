@@ -12,7 +12,7 @@ function getForecast(coords, callback) {
     }
     if (response?.body?.request) {
       callback(undefined, {
-        forecast: `${response.body.current.weather_descriptions[0]}. It is currently ${response.body.current.temperature} degress and there is ${response.body.current.precip} % chance of rain`,
+        forecast: `${response.body.current.weather_descriptions[0]}. It is currently ${response.body.current.temperature} degress and there is ${response.body.current.precip} % chance of rain. Humidity is set to ${response.body.current.humidity}`,
         location: location,
       });
     }
